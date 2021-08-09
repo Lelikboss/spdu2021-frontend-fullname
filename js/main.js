@@ -6,7 +6,7 @@ const formEl = document.querySelector(".js--form");
 const textArea = document.querySelector(".js--textarea");
 
 dialogueContainer.insertAdjacentHTML("beforeend", dialogueMurkup);
-formEl.addEventListener("submit", writeArea);
+formEl.addEventListener("submit", valueArea);
 formEl.addEventListener("keydown", onEnterPress);
 findAtrrEl();
 
@@ -28,7 +28,7 @@ function createDialogueItem(dialogueItem) {
     })
     .join("");
 }
-function writeArea(e) {
+function valueArea(e) {
   e.preventDefault();
   const value = textArea.value;
   textArea.value = "";
@@ -63,6 +63,6 @@ function findAtrrEl() {
 }
 function onEnterPress(e) {
   if (e.code === "Enter") {
-    writeArea(e);
+    valueArea(e);
   }
 }

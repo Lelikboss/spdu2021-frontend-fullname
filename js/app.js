@@ -1,24 +1,20 @@
-const dialogueItem = [
+export default [
   {
     name: "Antonyo",
     avatar: "https://randomuser.me/api/portraits/lego/1.jpg",
-    description: "Antonyo",
-    sentence:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolor aliquam quis?",
+    description: "Antonio",
+    sentence: "Hi, man! How are you?)",
   },
   {
     name: "Richardo",
     avatar: "https://randomuser.me/api/portraits/lego/2.jpg",
     description: "Richardo",
-    sentence:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquam expedita itaque!",
+    sentence: "Hi, Antonio! I’m fine. What about you?",
   },
   {
     name: "Antonyo",
     avatar: "https://randomuser.me/api/portraits/lego/1.jpg",
-    description: "Antonyo",
-    sentence:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt eaque sit.",
+    description: "Antonio",
+    sentence: "I’m also good. Thank you, Richardo !) What are you doing now? ",
   },
 ];
-export default dialogueItem;
